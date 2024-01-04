@@ -54,5 +54,33 @@ fn main() {
     */
 
 
+    /*Números de punto flotante:
+    
+    Son un tipo de dato que representa números reales, lo que significa que son números que tiene una parte fraccionaria
+    
+    En Rust hay dos tipos de datos para representar puntos flotantes
+    
+    f32  => Flotantes de 32 bits
+    f64  => Flotante de 64 bits */
+
+    //Ejemplo de número de punto flotante f32:
+    /* 
+    let numero_f32:f32 = 3.14;
+    println!("Numero f32 {}", numero_f32);
+    */
+
+    //Ejemplo de número de punto flotante f64:
+    /* 
+    let numero_f64:f64 = 3.141592653589793;
+    println!("Número f64 {}", numero_f64);
+    */
+
+    //Ejemplo de uso de un tipo de dato flotante que no es adecuada para guardar la cantidad de bits de un valor:
+    /* 
+    let numero_f32:f32 = 3.141592653589793;
+    println!("Esto imprimira el valor de la variable pero no de forma completa {}", numero_f32);
+    */
+
+
 
 }
